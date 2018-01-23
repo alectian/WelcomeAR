@@ -1,0 +1,6 @@
+framework module Pods_WelcomeARTests {
+  umbrella header "Pods-WelcomeARTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

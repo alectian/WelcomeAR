@@ -15,6 +15,15 @@
 		17B9267E1FE3C50200C1C026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B9267C1FE3C50200C1C026 /* LaunchScreen.storyboard */; };
 		17B926891FE3C50200C1C026 /* WelcomeARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B926881FE3C50200C1C026 /* WelcomeARTests.swift */; };
 		17B926941FE3C50200C1C026 /* WelcomeARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B926931FE3C50200C1C026 /* WelcomeARUITests.swift */; };
+		17B926A21FE3D23600C1C026 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B926A11FE3D23600C1C026 /* RootViewController.swift */; };
+		17B926A41FE3D2A200C1C026 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 17B926A31FE3D2A200C1C026 /* Resnet50.mlmodel */; };
+		17C7249C1FE74B9E00995F8B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7249B1FE74B9E00995F8B /* LoginVC.swift */; };
+		17C7249E1FE74BAF00995F8B /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7249D1FE74BAF00995F8B /* SignupVC.swift */; };
+		17C724A01FE75D4C00995F8B /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7249F1FE75D4C00995F8B /* Tools.swift */; };
+		17C724AA1FE7990D00995F8B /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C724A91FE7990D00995F8B /* MyButton.swift */; };
+		A7AB620719829EC3FF3781F9 /* Pods_WelcomeARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7B83DD1AA59032BB1CBAC7 /* Pods_WelcomeARUITests.framework */; };
+		BDB1623A93796F2E64597A99 /* Pods_WelcomeAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC2B749B979091C6357316E /* Pods_WelcomeAR.framework */; };
+		EE3F097AFE81A6A72FDF54A2 /* Pods_WelcomeARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36286827F45AF4115A0C4B83 /* Pods_WelcomeARTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,22 @@
 		17B9268F1FE3C50200C1C026 /* WelcomeARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B926931FE3C50200C1C026 /* WelcomeARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeARUITests.swift; sourceTree = "<group>"; };
 		17B926951FE3C50200C1C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B926A11FE3D23600C1C026 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		17B926A31FE3D2A200C1C026 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		17C7249B1FE74B9E00995F8B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		17C7249D1FE74BAF00995F8B /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		17C7249F1FE75D4C00995F8B /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		17C724A11FE7648800995F8B /* WelcomeAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WelcomeAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		17C724A91FE7990D00995F8B /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		36286827F45AF4115A0C4B83 /* Pods_WelcomeARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WelcomeARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EC493D0374129FC7F393D9 /* Pods-WelcomeAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeAR/Pods-WelcomeAR.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE46976B2B692EE48D8653D /* Pods-WelcomeARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeARUITests/Pods-WelcomeARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2E68CA321FA541B98366A5 /* Pods-WelcomeARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeARUITests/Pods-WelcomeARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD4F82A14B6D3FFBA358364F /* Pods-WelcomeARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeARTests/Pods-WelcomeARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7B83DD1AA59032BB1CBAC7 /* Pods_WelcomeARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WelcomeARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0B4FFC64FC48A99ADA951 /* Pods-WelcomeAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeAR/Pods-WelcomeAR.release.xcconfig"; sourceTree = "<group>"; };
+		FB289BE1B23857E3339CCA91 /* Pods-WelcomeARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WelcomeARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WelcomeARTests/Pods-WelcomeARTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC2B749B979091C6357316E /* Pods_WelcomeAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WelcomeAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB1623A93796F2E64597A99 /* Pods_WelcomeAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3F097AFE81A6A72FDF54A2 /* Pods_WelcomeARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AB620719829EC3FF3781F9 /* Pods_WelcomeARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,8 @@
 				17B926871FE3C50200C1C026 /* WelcomeARTests */,
 				17B926921FE3C50200C1C026 /* WelcomeARUITests */,
 				17B9266F1FE3C50200C1C026 /* Products */,
+				A2425091A19222EA729CADEC /* Pods */,
+				8C589ABD953E9A6AFC92A5F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +129,20 @@
 		17B926701FE3C50200C1C026 /* WelcomeAR */ = {
 			isa = PBXGroup;
 			children = (
+				17C724A51FE798CB00995F8B /* Tools */,
 				17B926711FE3C50200C1C026 /* AppDelegate.swift */,
+				17B926A11FE3D23600C1C026 /* RootViewController.swift */,
 				17B926731FE3C50200C1C026 /* art.scnassets */,
 				17B926751FE3C50200C1C026 /* ViewController.swift */,
+				17C7249B1FE74B9E00995F8B /* LoginVC.swift */,
+				17C7249D1FE74BAF00995F8B /* SignupVC.swift */,
+				17C7249F1FE75D4C00995F8B /* Tools.swift */,
 				17B926771FE3C50200C1C026 /* Main.storyboard */,
 				17B9267A1FE3C50200C1C026 /* Assets.xcassets */,
 				17B9267C1FE3C50200C1C026 /* LaunchScreen.storyboard */,
+				17B926A31FE3D2A200C1C026 /* Resnet50.mlmodel */,
 				17B9267F1FE3C50200C1C026 /* Info.plist */,
+				17C724A11FE7648800995F8B /* WelcomeAR-Bridging-Header.h */,
 			);
 			path = WelcomeAR;
 			sourceTree = "<group>";
@@ -128,6 +165,37 @@
 			path = WelcomeARUITests;
 			sourceTree = "<group>";
 		};
+		17C724A51FE798CB00995F8B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				17C724A91FE7990D00995F8B /* MyButton.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8C589ABD953E9A6AFC92A5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2B749B979091C6357316E /* Pods_WelcomeAR.framework */,
+				36286827F45AF4115A0C4B83 /* Pods_WelcomeARTests.framework */,
+				EE7B83DD1AA59032BB1CBAC7 /* Pods_WelcomeARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2425091A19222EA729CADEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EC493D0374129FC7F393D9 /* Pods-WelcomeAR.debug.xcconfig */,
+				FAB0B4FFC64FC48A99ADA951 /* Pods-WelcomeAR.release.xcconfig */,
+				CD4F82A14B6D3FFBA358364F /* Pods-WelcomeARTests.debug.xcconfig */,
+				FB289BE1B23857E3339CCA91 /* Pods-WelcomeARTests.release.xcconfig */,
+				5BE46976B2B692EE48D8653D /* Pods-WelcomeARUITests.debug.xcconfig */,
+				AE2E68CA321FA541B98366A5 /* Pods-WelcomeARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B926981FE3C50200C1C026 /* Build configuration list for PBXNativeTarget "WelcomeAR" */;
 			buildPhases = (
+				D189F05440FCB63F439CD2DA /* [CP] Check Pods Manifest.lock */,
 				17B9266A1FE3C50200C1C026 /* Sources */,
 				17B9266B1FE3C50200C1C026 /* Frameworks */,
 				17B9266C1FE3C50200C1C026 /* Resources */,
+				AB5FFB1C30937D94D2B5FB3A /* [CP] Embed Pods Frameworks */,
+				87FE12AE0C74BEC35EECA17D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B9269B1FE3C50200C1C026 /* Build configuration list for PBXNativeTarget "WelcomeARTests" */;
 			buildPhases = (
+				F6CC3FFAC5DD1D603CDAE7CC /* [CP] Check Pods Manifest.lock */,
 				17B926801FE3C50200C1C026 /* Sources */,
 				17B926811FE3C50200C1C026 /* Frameworks */,
 				17B926821FE3C50200C1C026 /* Resources */,
+				88B81CA4C09DB394A7838F2C /* [CP] Embed Pods Frameworks */,
+				3B5B0DF2B6CEC992310943AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B9269E1FE3C50200C1C026 /* Build configuration list for PBXNativeTarget "WelcomeARUITests" */;
 			buildPhases = (
+				5EDEF5B3B95BBF7B9514969D /* [CP] Check Pods Manifest.lock */,
 				17B9268B1FE3C50200C1C026 /* Sources */,
 				17B9268C1FE3C50200C1C026 /* Frameworks */,
 				17B9268D1FE3C50200C1C026 /* Resources */,
+				37C423D9457755A0BD42E47F /* [CP] Embed Pods Frameworks */,
+				11CB9E68589A2C2C7D0F3F1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +273,7 @@
 				TargetAttributes = {
 					17B9266D1FE3C50200C1C026 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					17B926831FE3C50200C1C026 = {
@@ -258,13 +336,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11CB9E68589A2C2C7D0F3F1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeARUITests/Pods-WelcomeARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37C423D9457755A0BD42E47F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeARUITests/Pods-WelcomeARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5B0DF2B6CEC992310943AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeARTests/Pods-WelcomeARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EDEF5B3B95BBF7B9514969D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87FE12AE0C74BEC35EECA17D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeAR/Pods-WelcomeAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B81CA4C09DB394A7838F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeARTests/Pods-WelcomeARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5FFB1C30937D94D2B5FB3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeAR/Pods-WelcomeAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D189F05440FCB63F439CD2DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CC3FFAC5DD1D603CDAE7CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17B9266A1FE3C50200C1C026 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C7249E1FE74BAF00995F8B /* SignupVC.swift in Sources */,
 				17B926761FE3C50200C1C026 /* ViewController.swift in Sources */,
 				17B926721FE3C50200C1C026 /* AppDelegate.swift in Sources */,
+				17C724AA1FE7990D00995F8B /* MyButton.swift in Sources */,
+				17B926A41FE3D2A200C1C026 /* Resnet50.mlmodel in Sources */,
+				17C724A01FE75D4C00995F8B /* Tools.swift in Sources */,
+				17B926A21FE3D23600C1C026 /* RootViewController.swift in Sources */,
+				17C7249C1FE74B9E00995F8B /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +650,20 @@
 		};
 		17B926991FE3C50200C1C026 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EC493D0374129FC7F393D9 /* Pods-WelcomeAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9HC64Z7P7;
+				DEVELOPMENT_TEAM = 65PD2XYMTQ;
 				INFOPLIST_FILE = WelcomeAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tab.WelcomeAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WelcomeAR/WelcomeAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +671,19 @@
 		};
 		17B9269A1FE3C50200C1C026 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB0B4FFC64FC48A99ADA951 /* Pods-WelcomeAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9HC64Z7P7;
+				DEVELOPMENT_TEAM = 65PD2XYMTQ;
 				INFOPLIST_FILE = WelcomeAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tab.WelcomeAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WelcomeAR/WelcomeAR-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +691,7 @@
 		};
 		17B9269C1FE3C50200C1C026 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4F82A14B6D3FFBA358364F /* Pods-WelcomeARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +709,7 @@
 		};
 		17B9269D1FE3C50200C1C026 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB289BE1B23857E3339CCA91 /* Pods-WelcomeARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +727,7 @@
 		};
 		17B9269F1FE3C50200C1C026 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE46976B2B692EE48D8653D /* Pods-WelcomeARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +744,7 @@
 		};
 		17B926A01FE3C50200C1C026 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2E68CA321FA541B98366A5 /* Pods-WelcomeARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
